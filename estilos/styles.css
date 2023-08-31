@@ -103,7 +103,7 @@ body {
 #contenedor-video {
 	display: flex;
     align-items: center;
-    background-image: url(/imagenes/fondovideo.webp);
+    background-image: url(https://i.imgur.com/AW2XSxL.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

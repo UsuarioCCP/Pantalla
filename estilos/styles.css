@@ -1,0 +1,357 @@
+body {
+	background-image: url(/imagenes/fondoalterno2.webp);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-attachment: fixed;
+	/* height:400px; */
+}
+	
+/* Header */
+#contenedor-header{
+	margin: 30px 0px 30px 0;
+    padding: 0;
+}
+#contenedor-logos {
+	display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 60px;
+    align-items: center;
+}
+#contenedor-nombre {
+    display: grid;
+    height: 60px;
+    align-items: end;
+    align-content: stretch;
+    justify-items: center;
+}
+.empresa{
+	color: white;
+	background: rgb(238,34,34);
+	background: linear-gradient(0deg, rgba(238,34,34,1) 41%, rgba(200,42,42,1) 64%, rgba(181,88,88,1) 95%);
+	font-family: 'Rokkitt', serif;
+	font-weight: bold;
+	font-size: 40px;
+	border-radius: 95px 95px 95px 95px;
+	border: 8px solid #f9edc66f;
+	padding: 5px 15px 5px 10px;
+	margin-left:-23px;
+}
+.img-fondo-titulo {
+	top: -34px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+}
+#logo-empresa-ochenta {
+	width: 150px;
+}
+
+#logo-empresa {
+    width: 100px;
+	margin-left: -5px;
+}
+
+
+/* Redes sociales y reloj */
+.reloj {
+	width: 380px;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.log-redes-sociales {
+	width: 100%;
+	height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.clock {
+	position: relative;
+	text-align: center;
+}
+
+.time {
+	color: white;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.date {
+	background: #fafafaa2;
+	font-size: 1.4rem;
+	color: black;
+	font-weight: bold;
+}
+
+/* seccion 1 */
+#seccionOne {
+    display: block;
+	height: 500px;
+}
+.contenidos {
+	display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 0px !important;
+    align-items: center;
+}
+#contenedor-video {
+	display: flex;
+    align-items: center;
+    background-image: url(/imagenes/fondovideo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 54%;
+    height: 535px;
+    padding: 15px 40px 15px 40px;
+    margin-top: 25px;
+}
+.video {
+	margin-top: 5px;
+}
+#contenedor-programas {
+    margin-left: 0px;
+}
+
+
+#contenedor-capacitaciones {
+	justify-content: center;
+}
+
+#capacitaciones h4 {
+	color: white;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.contenido-programas {
+    display: contents;
+}
+.fb-video {
+    align-content: center;
+}
+
+
+/* aside */
+
+#capacitaciones {
+	/* background: linear-gradient(90deg, #1c3643a1, #273b47b4 25%, #1e5372b7); */
+	background:  #999898e0;
+	position: relative;
+    display: grid;
+    justify-items: center;
+	border-radius: 0px 95px 0px 95px;
+	border: 8px solid #fcfcfc6f;
+	width: 75%;
+}
+
+#programas {
+    width: auto;
+    display: grid;
+    justify-items: center;
+    height: 510px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+#myCarousel {
+    width: 100%;
+}
+
+/* h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #8fbc54;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+} */
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 0px;
+}
+.carousel-inner {
+	width: 100%;
+	height: 280px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid;
+	border-image: linear-gradient(to bottom, #f0f0f0, #d0d0d0, #b0b0b0, #909090, #707070);
+    border-image-slice: 1;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 10px 10px 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #d4d4d4;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #0000008c;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.contenido > img {
+	width: 83%;
+}
+
+#agenda-mes {
+display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* align-content: center; */
+    margin: 5px;
+}
+
+#agenda-mes p  {
+	color: #00509c;
+    font-weight: bold;
+    font-size: medium;
+}
+#mes {
+	color: #008ab2;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* redes*/
+
+.logo-redes {
+	color: white;
+}
+
+/* footer */
+
+#camarito {
+	position: fixed;
+    width: 140px;
+    bottom: 0px;
+    margin-left: -20px;
+}
+
+ .banner-container {
+	/* background: linear-gradient(0deg, #b71731 0%, #df1949 100%); */
+	background: linear-gradient(to bottom, #777777, #666666, #555555, #444444, #333333, #222222, #111111, #000000e7);
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	bottom: 0;
+	overflow: hidden;
+	align-content: center;
+  }
+
+  .mensajes {
+	font-size: 20px;
+	padding: 0;
+	white-space: nowrap;
+	color: white;
+  }
+  
+  .message-text {
+	font-family: 'Bree Serif', serif;
+	font-family: 'Maitree', serif;
+	margin: 0;
+  }
+
+/* para query selector */
+@media (min-height:835px){
+	/* body {
+		height:650px;
+	} */
+	#contenedor-header{
+		margin: 40px 0 40px 0;
+	}
+	.banner-container {
+		height: 70px;
+	}
+	#seccionOne {
+		margin-top: 70px;
+	}
+	.mensajes {
+		font-size: 25px;
+	}
+  	#camarito {
+	width: 170px;
+  	}
+	.banner-container {
+		overflow: none;
+  }
+}

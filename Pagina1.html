@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+        &amp;gt;
+    />
+    <title>Index</title>
+    <!-- FONTS GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2? family= Bree+Serif & familia = Maitree &family= Quicksand:wght@300;500;700 & family= Rokkitt:wght@900 &familia= Clasificaciones+Molino+Goudy & display=swap" rel="stylesheet"
+    />
+    <!-- LLAMADO A BOOTSTRAP -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+    />
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- LLAMADO HOJAS DE ESTILOS -->
+    <link rel="stylesheet" href="./estilos/styles.css" />
+    <!-- LLAMADO A FACEBOOK -->
+    <!-- <script ...
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js"
+    ></script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="container-fluid" id="contenedor-header">
+        <div class="row m-0">
+            <div class="col" id="info-empresa">
+                <div class="col-md-3" id="contenedor-logos">
+                    <img
+                    src="./imagenes/80-años.png"
+                    id="logo-empresa-ochenta"
+                    alt="logo-empresa"
+                    />
+                    <img
+                    src="./imagenes/logo_camara.png"
+                    id="logo-empresa"
+                    alt="logo-empresa"
+                    />
+                </div>
+                <div class="col-md-6" id="contenedor-nombre">
+                    <h2 class="empresa m-0">Cámara de Comercio de Pamplona</h2>
+                    <img
+                        class="img-fondo-titulo"
+                        src="./imagenes/FONDOTITULO.webp"
+                        alt="fondo-titulo"
+                        />
+                </div>
+                <div class="col-md-2 p-0 reloj">
+                    <div class="clock">
+                        <div class="time" id="time"></div>
+                        <div class="date" id="date"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- seccion 1 -->
+<section className="container-fluid" id="seccionOne">
+    <div class="row contenidos">
+        <div class="col-md-8" id="contenedor-video">
+            <iframe class="video"
+                width="1000"
+                height="410"
+                src="https://www.youtube-nocookie.com/embed/videoseries?si=Pgz3q1ijm6c3L6qm&amp;list=PLmVJ0CeRYtBzvSf1DUneuvQwhs7-T9YkP&autoplay=1"
+                title="YouTube video player"
+                frameborder=""
+                allow="accelerometer; autoplay; clipboard-write"
+                allowfullscreen
+            ></iframe>
+        </div>
+        <div class="col-md-4" id="contenedor-programas">
+            <div class="container" id="programas">
+                <div class="row m-0" id="contenedor-capacitaciones">
+                    <div id="capacitaciones">
+                        <h4>Eventos</h4>
+                        <div class="contenido-programas">
+                            <div
+                                id="myCarousel"
+                                class="carousel slide carousel-fade"
+                                data-ride="carousel"
+                                data-interval="10000">
+                                <div class="carousel-inner">
+                                    <div class="item active row">
+                                        <div class="contenido">
+                                            <img
+                                                class=""
+                                                src="./imagenes/Publicidad1.jpeg"
+                                                alt="evento"
+                                                id="foto"
+                                            />
+                                        </div>
+                                        <br />
+                                    </div>
+                                    <div class="item row">
+                                        <div class="contenido">
+                                            <img
+                                                src="./imagenes/Publicidad2.jpeg"
+                                                alt="evento"
+                                                id="foto"
+                                            />
+                                        </div>
+                                        <br />
+                                        <!-- <b>Agenta de:</b>
+                                        <p class="overview" id="mes"></p> -->
+                                    </div>
+                                    <div class="item row">
+                                        <div class="contenido">
+                                            <img
+                                                src="./imagenes/Publicidad3.jpeg"
+                                                alt="evento"
+                                                id="foto"
+                                            />
+                                        </div>
+                                        <br />
+                                        <!-- <b>Agenta de:</b>
+                                        <p class="overview" id="mes"></p> -->
+                                    </div>
+                                </div>
+                                <div id="agenda-mes">
+                                    <p>Agenda de: <b id="mes"></b></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="log-redes-sociales">
+                            <!-- Facebook -->
+                            <a class="logo-redes" href="#!" role="button">
+                                <i class="fa fa-facebook-f fa-lg"></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="logo-redes" href="#!" role="button">
+                                <i class="fa fa-twitter fa-lg"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a class="logo-redes" href="#!" role="button">
+                                <i class="fa fa-instagram fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid">
+    <div class="row banner-container">
+        <div class="col-md-1 banner">
+            <img src="/imagenes/Camarito.webp" id="camarito" alt="camarito" />
+        </div>
+        <div class="col-md-11 mensajes">
+            <p class="message-text" id="texto"></p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="./js/script.js"></script>
+<script src="./js/admin.js"></script>
+<script src="./js/reloj.js"></script>
+</body>
+<!-- <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+></script> -->
+<!-- <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+></script> -->
+<!-- <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"
+></script> -->
+
+  <!-- <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> -->
+<!-- <script src="./js/script.js"></script> -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

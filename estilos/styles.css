@@ -282,12 +282,12 @@ display: flex;
 }
 
 #agenda-mes p  {
-	color: #00509c;
+	color: #23359c;
     font-weight: bold;
     font-size: medium;
 }
 #mes {
-	color: #008ab2;
+	color: #d7e63c;
     font-weight: bold;
     font-size: large;
 }

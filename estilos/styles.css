@@ -107,8 +107,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 54%;
-    height: 520px;
+    width: 53%;
+    height: 530px;
     padding: 15px 40px 15px 40px;
     margin-top: 10px;
 }
@@ -126,7 +126,7 @@ body {
 
 #capacitaciones h4 {
 	color: white;
-	font-size: x-large;
+	font-size: large;
 	font-weight: bold;
 }
 

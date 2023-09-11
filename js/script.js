@@ -24,11 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const footerContainer = document.querySelector(".mensajes");
 
   let messages = [
-    "<b>Agendate</b> con la Cámara de Comercio y consulta mas sobre los beneficios de ser un empresario formalmente constituido ingresando a www.camarapamplona.org.co",
-    "Recuerda nuestro horario de atención <strong>Lunes a Viernes</strong> de <strong>8:00am - 12:00pm  y  de 2:00pm - 6:00pm</strong>",
-    "Nuestro equipo de expertos está aquí para brindarte asesoramiento personalizado y la información que necesitas",
-    "Recuerda los canalaes para estar en comunicaciçon con nosotros email: ccpamplona@camarapamplona.org.co  telefonos (60)75680993-(60)75684696 Telefax:(60)75682047 y nuestro whatsapp: 333 0333569",
-    "La Cámara de Comercio de Pamplona esta comprometida a impulsar la generación de oportunidades en emprendimiento, fortalecimiento y aceleración empresarial de la región.",
+    //Limite de caracteres por frase 120
+    "Agendate con la Cámara de Comercio y consulta los beneficios de estar formalizado en www.camarapamplona.org.co",
+    "Recuerda nuestro horario de atención Lunes a Viernes de 8:00am - 12:00pm  y  de 2:00pm - 6:00pm",
+    "Nuestros asesores estan aquí para brindarte la información que necesitas",
+    "Recuerda nuestros canales de contacto: ccpamplona@camarapamplona.org.co, teléfonos (60)75680993 - 75684696 - 75682047 y WhatsApp: 333 033 3569",
+    "La generación de oportunidades en emprendimiento, fortalecimiento y aceleración empresarial de la región, es nuestro compromiso",
     "Recuerda que por nuestros canales virtuales podras realizar cualquier tipo de tramite"
   ];
 

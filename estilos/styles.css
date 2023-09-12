@@ -246,7 +246,6 @@ display: flex;
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-    /* align-content: center; */
     margin: 10px;
 }
 #agenda-mes p  {
@@ -269,7 +268,7 @@ display: flex;
 #camarito {
 	position: fixed;
     width: 140px;
-    bottom: 0px;
+    bottom: 10px;
     margin-left: -20px;
 }
 .banner-container {
@@ -282,25 +281,22 @@ display: flex;
 	overflow: hidden;
 	align-content: center;
 }
-
 .mensajes {
 	font-size: 20px;
 	padding: 0;
 	white-space: nowrap;
 	color: white;
 }
-
 .message-text {
 	font-family: 'Bree Serif', serif;
 	font-family: 'Maitree', serif;
 	margin: 0;
 }
 
+
 /* para query selector */
 @media (min-height:835px){
-	/* body {
-		height:650px;
-	} */
+	
 	#contenedor-header{
 		margin: 40px 0 40px 0;
 	}

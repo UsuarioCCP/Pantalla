@@ -140,6 +140,7 @@ body {
 #capacitaciones {
 	/* background: linear-gradient(90deg, #1c3643a1, #273b47b4 25%, #1e5372b7); */
 	background:  #999898e0;
+	backdrop-filter: blur(5px);
 	position: relative;
     display: grid;
     justify-items: center;
@@ -256,7 +257,7 @@ display: flex;
 #mes {
 	color: #d7e63c;
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
 }
 
 /* redes*/
